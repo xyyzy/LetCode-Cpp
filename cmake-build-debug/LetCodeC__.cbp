@@ -17,6 +17,52 @@
 					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_16_">
+				<Option output="D:/code/C++/LetCodeC++/cmake-build-debug/_16_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 _16_"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_16_/fast">
+				<Option output="D:/code/C++/LetCodeC++/cmake-build-debug/_16_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 _16_/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="LetCodeC__">
 				<Option output="D:/code/C++/LetCodeC++/cmake-build-debug/LetCodeC__.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
@@ -273,6 +319,12 @@
 		</Unit>
 		<Unit filename="D:/code/C++/LetCodeC++/Array/_11_Container With Most Water/Solution.h">
 			<Option target="_11_"/>
+		</Unit>
+		<Unit filename="D:/code/C++/LetCodeC++/Array/_16_ 3Sum Closest/Solution.cpp">
+			<Option target="_16_"/>
+		</Unit>
+		<Unit filename="D:/code/C++/LetCodeC++/Array/_16_ 3Sum Closest/Solution.h">
+			<Option target="_16_"/>
 		</Unit>
 		<Unit filename="D:/code/C++/LetCodeC++/Array/_1_Two Sum/Solution.cpp">
 			<Option target="_1_"/>

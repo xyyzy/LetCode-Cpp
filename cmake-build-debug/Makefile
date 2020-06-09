@@ -112,6 +112,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named _16_
+
+# Build rule for target.
+_16_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) _16_
+.PHONY : _16_
+
+# fast build rule for target.
+_16_\fast:
+	$(MAKE) -f CMakeFiles\_16_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_16_.dir\build
+.PHONY : _16_\fast
+
+#=============================================================================
 # Target rules for targets named LetCodeC__
 
 # Build rule for target.
@@ -202,6 +215,33 @@ Array\_11_Container_With_Most_Water\Solution.s: Array\_11_Container_With_Most_Wa
 Array\_11_Container_With_Most_Water\Solution.cpp.s:
 	$(MAKE) -f CMakeFiles\_11_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_11_.dir\Array\_11_Container_With_Most_Water\Solution.cpp.s
 .PHONY : Array\_11_Container_With_Most_Water\Solution.cpp.s
+
+Array\_16__3Sum_Closest\Solution.obj: Array\_16__3Sum_Closest\Solution.cpp.obj
+
+.PHONY : Array\_16__3Sum_Closest\Solution.obj
+
+# target to build an object file
+Array\_16__3Sum_Closest\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\_16_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_16_.dir\Array\_16__3Sum_Closest\Solution.cpp.obj
+.PHONY : Array\_16__3Sum_Closest\Solution.cpp.obj
+
+Array\_16__3Sum_Closest\Solution.i: Array\_16__3Sum_Closest\Solution.cpp.i
+
+.PHONY : Array\_16__3Sum_Closest\Solution.i
+
+# target to preprocess a source file
+Array\_16__3Sum_Closest\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\_16_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_16_.dir\Array\_16__3Sum_Closest\Solution.cpp.i
+.PHONY : Array\_16__3Sum_Closest\Solution.cpp.i
+
+Array\_16__3Sum_Closest\Solution.s: Array\_16__3Sum_Closest\Solution.cpp.s
+
+.PHONY : Array\_16__3Sum_Closest\Solution.s
+
+# target to generate assembly for a file
+Array\_16__3Sum_Closest\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\_16_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_16_.dir\Array\_16__3Sum_Closest\Solution.cpp.s
+.PHONY : Array\_16__3Sum_Closest\Solution.cpp.s
 
 Array\_1_Two_Sum\Solution.obj: Array\_1_Two_Sum\Solution.cpp.obj
 
@@ -317,6 +357,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... _16_
 	@echo ... LetCodeC__
 	@echo ... rebuild_cache
 	@echo ... _107_
@@ -327,6 +368,9 @@ help:
 	@echo ... Array/_11_Container_With_Most_Water/Solution.obj
 	@echo ... Array/_11_Container_With_Most_Water/Solution.i
 	@echo ... Array/_11_Container_With_Most_Water/Solution.s
+	@echo ... Array/_16__3Sum_Closest/Solution.obj
+	@echo ... Array/_16__3Sum_Closest/Solution.i
+	@echo ... Array/_16__3Sum_Closest/Solution.s
 	@echo ... Array/_1_Two_Sum/Solution.obj
 	@echo ... Array/_1_Two_Sum/Solution.i
 	@echo ... Array/_1_Two_Sum/Solution.s
