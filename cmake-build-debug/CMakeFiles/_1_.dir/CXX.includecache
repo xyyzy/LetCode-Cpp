@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code/C++/LetCodeC++/Array/_1_Two Sum/Solution.cpp
+Solution.h
+D:/code/C++/LetCodeC++/Array/_1_Two Sum/Solution.h
+
+D:/code/C++/LetCodeC++/Array/_1_Two Sum/Solution.h
+

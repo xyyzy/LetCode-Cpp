@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code/C++/LetCodeC++/BFS/_107_Binary Tree Level Order Traversal II/Solution.cpp
+Solution.h
+D:/code/C++/LetCodeC++/BFS/_107_Binary Tree Level Order Traversal II/Solution.h
+iostream
+-
+
+D:/code/C++/LetCodeC++/BFS/_107_Binary Tree Level Order Traversal II/Solution.h
+cstddef
+-
+vector
+-
+queue
+-
+algorithm
+-
+
