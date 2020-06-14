@@ -57,17 +57,6 @@ CMAKE_BINARY_DIR = D:\code\C++\LetCodeC++\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache\fast: rebuild_cache
-
-.PHONY : rebuild_cache\fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -78,6 +67,17 @@ edit_cache:
 edit_cache\fast: edit_cache
 
 .PHONY : edit_cache\fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	C:\toolbox\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache\fast: rebuild_cache
+
+.PHONY : rebuild_cache\fast
 
 # The main all target
 all: cmake_check_build_system
@@ -189,6 +189,19 @@ _3_\fast:
 	$(MAKE) -f CMakeFiles\_3_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_3_.dir\build
 .PHONY : _3_\fast
 
+#=============================================================================
+# Target rules for targets named _101_
+
+# Build rule for target.
+_101_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) _101_
+.PHONY : _101_
+
+# fast build rule for target.
+_101_\fast:
+	$(MAKE) -f CMakeFiles\_101_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_101_.dir\build
+.PHONY : _101_\fast
+
 Array\_11_Container_With_Most_Water\Solution.obj: Array\_11_Container_With_Most_Water\Solution.cpp.obj
 
 .PHONY : Array\_11_Container_With_Most_Water\Solution.obj
@@ -297,6 +310,33 @@ Array\_3__3Sum\Solution.cpp.s:
 	$(MAKE) -f CMakeFiles\_3_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_3_.dir\Array\_3__3Sum\Solution.cpp.s
 .PHONY : Array\_3__3Sum\Solution.cpp.s
 
+BFS\_101_Symmetric_Tree\Solution.obj: BFS\_101_Symmetric_Tree\Solution.cpp.obj
+
+.PHONY : BFS\_101_Symmetric_Tree\Solution.obj
+
+# target to build an object file
+BFS\_101_Symmetric_Tree\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\_101_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_101_.dir\BFS\_101_Symmetric_Tree\Solution.cpp.obj
+.PHONY : BFS\_101_Symmetric_Tree\Solution.cpp.obj
+
+BFS\_101_Symmetric_Tree\Solution.i: BFS\_101_Symmetric_Tree\Solution.cpp.i
+
+.PHONY : BFS\_101_Symmetric_Tree\Solution.i
+
+# target to preprocess a source file
+BFS\_101_Symmetric_Tree\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\_101_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_101_.dir\BFS\_101_Symmetric_Tree\Solution.cpp.i
+.PHONY : BFS\_101_Symmetric_Tree\Solution.cpp.i
+
+BFS\_101_Symmetric_Tree\Solution.s: BFS\_101_Symmetric_Tree\Solution.cpp.s
+
+.PHONY : BFS\_101_Symmetric_Tree\Solution.s
+
+# target to generate assembly for a file
+BFS\_101_Symmetric_Tree\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\_101_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_101_.dir\BFS\_101_Symmetric_Tree\Solution.cpp.s
+.PHONY : BFS\_101_Symmetric_Tree\Solution.cpp.s
+
 BFS\_107_Binary_Tree_Level_Order_Traversal_II\Solution.obj: BFS\_107_Binary_Tree_Level_Order_Traversal_II\Solution.cpp.obj
 
 .PHONY : BFS\_107_Binary_Tree_Level_Order_Traversal_II\Solution.obj
@@ -359,12 +399,13 @@ help:
 	@echo ... depend
 	@echo ... _16_
 	@echo ... LetCodeC__
-	@echo ... rebuild_cache
 	@echo ... _107_
 	@echo ... _1_
 	@echo ... _11_
 	@echo ... edit_cache
 	@echo ... _3_
+	@echo ... _101_
+	@echo ... rebuild_cache
 	@echo ... Array/_11_Container_With_Most_Water/Solution.obj
 	@echo ... Array/_11_Container_With_Most_Water/Solution.i
 	@echo ... Array/_11_Container_With_Most_Water/Solution.s
@@ -377,6 +418,9 @@ help:
 	@echo ... Array/_3__3Sum/Solution.obj
 	@echo ... Array/_3__3Sum/Solution.i
 	@echo ... Array/_3__3Sum/Solution.s
+	@echo ... BFS/_101_Symmetric_Tree/Solution.obj
+	@echo ... BFS/_101_Symmetric_Tree/Solution.i
+	@echo ... BFS/_101_Symmetric_Tree/Solution.s
 	@echo ... BFS/_107_Binary_Tree_Level_Order_Traversal_II/Solution.obj
 	@echo ... BFS/_107_Binary_Tree_Level_Order_Traversal_II/Solution.i
 	@echo ... BFS/_107_Binary_Tree_Level_Order_Traversal_II/Solution.s
