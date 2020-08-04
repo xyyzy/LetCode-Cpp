@@ -201,6 +201,52 @@
 					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_28_">
+				<Option output="D:/code/C++/LetCodeC++/cmake-build-debug/_28_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 _28_"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_28_/fast">
+				<Option output="D:/code/C++/LetCodeC++/cmake-build-debug/_28_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 _28_/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="_11_">
 				<Option output="D:/code/C++/LetCodeC++/cmake-build-debug/_11_.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
@@ -242,16 +288,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 _11_/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
 					<CompileFile command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -349,6 +385,16 @@
 					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\C++\LetCodeC++\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/code/C++/LetCodeC++/cmake-build-debug"/>
 				<Option type="4"/>
@@ -395,6 +441,12 @@
 		</Unit>
 		<Unit filename="D:/code/C++/LetCodeC++/BFS/_107_Binary Tree Level Order Traversal II/Solution.h">
 			<Option target="_107_"/>
+		</Unit>
+		<Unit filename="D:/code/C++/LetCodeC++/Strings/_28_ Implement strStr()/Solution.cpp">
+			<Option target="_28_"/>
+		</Unit>
+		<Unit filename="D:/code/C++/LetCodeC++/Strings/_28_ Implement strStr()/Solution.h">
+			<Option target="_28_"/>
 		</Unit>
 		<Unit filename="D:/code/C++/LetCodeC++/main.cpp">
 			<Option target="LetCodeC__"/>

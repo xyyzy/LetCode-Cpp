@@ -164,6 +164,19 @@ _1_\fast:
 .PHONY : _1_\fast
 
 #=============================================================================
+# Target rules for targets named _28_
+
+# Build rule for target.
+_28_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) _28_
+.PHONY : _28_
+
+# fast build rule for target.
+_28_\fast:
+	$(MAKE) -f CMakeFiles\_28_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\build
+.PHONY : _28_\fast
+
+#=============================================================================
 # Target rules for targets named _11_
 
 # Build rule for target.
@@ -364,6 +377,33 @@ BFS\_107_Binary_Tree_Level_Order_Traversal_II\Solution.cpp.s:
 	$(MAKE) -f CMakeFiles\_107_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_107_.dir\BFS\_107_Binary_Tree_Level_Order_Traversal_II\Solution.cpp.s
 .PHONY : BFS\_107_Binary_Tree_Level_Order_Traversal_II\Solution.cpp.s
 
+Strings\_28__Implement_strStr()\Solution.obj: Strings\_28__Implement_strStr()\Solution.cpp.obj
+
+.PHONY : Strings\_28__Implement_strStr()\Solution.obj
+
+# target to build an object file
+Strings\_28__Implement_strStr()\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\_28_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\Strings\_28__Implement_strStr()\Solution.cpp.obj
+.PHONY : Strings\_28__Implement_strStr()\Solution.cpp.obj
+
+Strings\_28__Implement_strStr()\Solution.i: Strings\_28__Implement_strStr()\Solution.cpp.i
+
+.PHONY : Strings\_28__Implement_strStr()\Solution.i
+
+# target to preprocess a source file
+Strings\_28__Implement_strStr()\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\_28_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\Strings\_28__Implement_strStr()\Solution.cpp.i
+.PHONY : Strings\_28__Implement_strStr()\Solution.cpp.i
+
+Strings\_28__Implement_strStr()\Solution.s: Strings\_28__Implement_strStr()\Solution.cpp.s
+
+.PHONY : Strings\_28__Implement_strStr()\Solution.s
+
+# target to generate assembly for a file
+Strings\_28__Implement_strStr()\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\_28_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\Strings\_28__Implement_strStr()\Solution.cpp.s
+.PHONY : Strings\_28__Implement_strStr()\Solution.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -401,10 +441,11 @@ help:
 	@echo ... LetCodeC__
 	@echo ... _107_
 	@echo ... _1_
+	@echo ... _28_
 	@echo ... _11_
-	@echo ... edit_cache
 	@echo ... _3_
 	@echo ... _101_
+	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Array/_11_Container_With_Most_Water/Solution.obj
 	@echo ... Array/_11_Container_With_Most_Water/Solution.i
@@ -424,6 +465,9 @@ help:
 	@echo ... BFS/_107_Binary_Tree_Level_Order_Traversal_II/Solution.obj
 	@echo ... BFS/_107_Binary_Tree_Level_Order_Traversal_II/Solution.i
 	@echo ... BFS/_107_Binary_Tree_Level_Order_Traversal_II/Solution.s
+	@echo ... Strings/_28__Implement_strStr()/Solution.obj
+	@echo ... Strings/_28__Implement_strStr()/Solution.i
+	@echo ... Strings/_28__Implement_strStr()/Solution.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

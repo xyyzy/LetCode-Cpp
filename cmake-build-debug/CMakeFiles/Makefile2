@@ -58,6 +58,7 @@ all: CMakeFiles\_16_.dir\all
 all: CMakeFiles\LetCodeC__.dir\all
 all: CMakeFiles\_107_.dir\all
 all: CMakeFiles\_1_.dir\all
+all: CMakeFiles\_28_.dir\all
 all: CMakeFiles\_11_.dir\all
 all: CMakeFiles\_3_.dir\all
 all: CMakeFiles\_101_.dir\all
@@ -74,6 +75,7 @@ clean: CMakeFiles\_16_.dir\clean
 clean: CMakeFiles\LetCodeC__.dir\clean
 clean: CMakeFiles\_107_.dir\clean
 clean: CMakeFiles\_1_.dir\clean
+clean: CMakeFiles\_28_.dir\clean
 clean: CMakeFiles\_11_.dir\clean
 clean: CMakeFiles\_3_.dir\clean
 clean: CMakeFiles\_101_.dir\clean
@@ -189,6 +191,33 @@ CMakeFiles\_1_.dir\clean:
 .PHONY : CMakeFiles\_1_.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/_28_.dir
+
+# All Build rule for target.
+CMakeFiles\_28_.dir\all:
+	$(MAKE) -f CMakeFiles\_28_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\depend
+	$(MAKE) -f CMakeFiles\_28_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\C++\LetCodeC++\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target _28_"
+.PHONY : CMakeFiles\_28_.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\_28_.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\C++\LetCodeC++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\C++\LetCodeC++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\_28_.dir\rule
+
+# Convenience name for target.
+_28_: CMakeFiles\_28_.dir\rule
+
+.PHONY : _28_
+
+# clean rule for target.
+CMakeFiles\_28_.dir\clean:
+	$(MAKE) -f CMakeFiles\_28_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\clean
+.PHONY : CMakeFiles\_28_.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/_11_.dir
 
 # All Build rule for target.
@@ -222,7 +251,7 @@ CMakeFiles\_11_.dir\clean:
 CMakeFiles\_3_.dir\all:
 	$(MAKE) -f CMakeFiles\_3_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_3_.dir\depend
 	$(MAKE) -f CMakeFiles\_3_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_3_.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\C++\LetCodeC++\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target _3_"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\C++\LetCodeC++\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target _3_"
 .PHONY : CMakeFiles\_3_.dir\all
 
 # Build rule for subdir invocation for target.

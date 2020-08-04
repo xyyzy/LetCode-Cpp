@@ -1,6 +1,9 @@
 #include <iostream>
-
+#include <string>
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    string s = "anac";
+    s = " "+s;
+    cout<<s;
     return 0;
 }
