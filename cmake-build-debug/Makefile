@@ -215,6 +215,45 @@ _101_\fast:
 	$(MAKE) -f CMakeFiles\_101_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_101_.dir\build
 .PHONY : _101_\fast
 
+#=============================================================================
+# Target rules for targets named _94_
+
+# Build rule for target.
+_94_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) _94_
+.PHONY : _94_
+
+# fast build rule for target.
+_94_\fast:
+	$(MAKE) -f CMakeFiles\_94_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_94_.dir\build
+.PHONY : _94_\fast
+
+#=============================================================================
+# Target rules for targets named _145_
+
+# Build rule for target.
+_145_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) _145_
+.PHONY : _145_
+
+# fast build rule for target.
+_145_\fast:
+	$(MAKE) -f CMakeFiles\_145_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_145_.dir\build
+.PHONY : _145_\fast
+
+#=============================================================================
+# Target rules for targets named _144_
+
+# Build rule for target.
+_144_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) _144_
+.PHONY : _144_
+
+# fast build rule for target.
+_144_\fast:
+	$(MAKE) -f CMakeFiles\_144_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_144_.dir\build
+.PHONY : _144_\fast
+
 Array\_11_Container_With_Most_Water\Solution.obj: Array\_11_Container_With_Most_Water\Solution.cpp.obj
 
 .PHONY : Array\_11_Container_With_Most_Water\Solution.obj
@@ -404,6 +443,87 @@ Strings\_28__Implement_strStr()\Solution.cpp.s:
 	$(MAKE) -f CMakeFiles\_28_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_28_.dir\Strings\_28__Implement_strStr()\Solution.cpp.s
 .PHONY : Strings\_28__Implement_strStr()\Solution.cpp.s
 
+Tree\_144_Binary_Tree_Preorder_Traversal\Solution.obj: Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.obj
+
+.PHONY : Tree\_144_Binary_Tree_Preorder_Traversal\Solution.obj
+
+# target to build an object file
+Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\_144_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_144_.dir\Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.obj
+.PHONY : Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.obj
+
+Tree\_144_Binary_Tree_Preorder_Traversal\Solution.i: Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.i
+
+.PHONY : Tree\_144_Binary_Tree_Preorder_Traversal\Solution.i
+
+# target to preprocess a source file
+Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\_144_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_144_.dir\Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.i
+.PHONY : Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.i
+
+Tree\_144_Binary_Tree_Preorder_Traversal\Solution.s: Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.s
+
+.PHONY : Tree\_144_Binary_Tree_Preorder_Traversal\Solution.s
+
+# target to generate assembly for a file
+Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\_144_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_144_.dir\Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.s
+.PHONY : Tree\_144_Binary_Tree_Preorder_Traversal\Solution.cpp.s
+
+Tree\_145_Binary_Tree_Postorder_Traversal\Solution.obj: Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.obj
+
+.PHONY : Tree\_145_Binary_Tree_Postorder_Traversal\Solution.obj
+
+# target to build an object file
+Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\_145_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_145_.dir\Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.obj
+.PHONY : Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.obj
+
+Tree\_145_Binary_Tree_Postorder_Traversal\Solution.i: Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.i
+
+.PHONY : Tree\_145_Binary_Tree_Postorder_Traversal\Solution.i
+
+# target to preprocess a source file
+Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\_145_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_145_.dir\Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.i
+.PHONY : Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.i
+
+Tree\_145_Binary_Tree_Postorder_Traversal\Solution.s: Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.s
+
+.PHONY : Tree\_145_Binary_Tree_Postorder_Traversal\Solution.s
+
+# target to generate assembly for a file
+Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\_145_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_145_.dir\Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.s
+.PHONY : Tree\_145_Binary_Tree_Postorder_Traversal\Solution.cpp.s
+
+Tree\_94_Binary_Tree_Inorder_Traversal\Solution.obj: Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.obj
+
+.PHONY : Tree\_94_Binary_Tree_Inorder_Traversal\Solution.obj
+
+# target to build an object file
+Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\_94_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_94_.dir\Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.obj
+.PHONY : Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.obj
+
+Tree\_94_Binary_Tree_Inorder_Traversal\Solution.i: Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.i
+
+.PHONY : Tree\_94_Binary_Tree_Inorder_Traversal\Solution.i
+
+# target to preprocess a source file
+Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\_94_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_94_.dir\Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.i
+.PHONY : Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.i
+
+Tree\_94_Binary_Tree_Inorder_Traversal\Solution.s: Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.s
+
+.PHONY : Tree\_94_Binary_Tree_Inorder_Traversal\Solution.s
+
+# target to generate assembly for a file
+Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\_94_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_94_.dir\Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.s
+.PHONY : Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -445,6 +565,9 @@ help:
 	@echo ... _11_
 	@echo ... _3_
 	@echo ... _101_
+	@echo ... _94_
+	@echo ... _145_
+	@echo ... _144_
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Array/_11_Container_With_Most_Water/Solution.obj
@@ -468,6 +591,15 @@ help:
 	@echo ... Strings/_28__Implement_strStr()/Solution.obj
 	@echo ... Strings/_28__Implement_strStr()/Solution.i
 	@echo ... Strings/_28__Implement_strStr()/Solution.s
+	@echo ... Tree/_144_Binary_Tree_Preorder_Traversal/Solution.obj
+	@echo ... Tree/_144_Binary_Tree_Preorder_Traversal/Solution.i
+	@echo ... Tree/_144_Binary_Tree_Preorder_Traversal/Solution.s
+	@echo ... Tree/_145_Binary_Tree_Postorder_Traversal/Solution.obj
+	@echo ... Tree/_145_Binary_Tree_Postorder_Traversal/Solution.i
+	@echo ... Tree/_145_Binary_Tree_Postorder_Traversal/Solution.s
+	@echo ... Tree/_94_Binary_Tree_Inorder_Traversal/Solution.obj
+	@echo ... Tree/_94_Binary_Tree_Inorder_Traversal/Solution.i
+	@echo ... Tree/_94_Binary_Tree_Inorder_Traversal/Solution.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
