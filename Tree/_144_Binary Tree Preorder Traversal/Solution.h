@@ -30,9 +30,12 @@ class Solution {
         while (!stack.empty() || curr != NULL) {
             while (curr != NULL) {
                 stack.push(curr);
+                list.push_back(curr->val);
+                curr = curr->left;
             }
+            curr=stack.top();stack.pop();
         }
-
+        return list;
     }
 };
 
