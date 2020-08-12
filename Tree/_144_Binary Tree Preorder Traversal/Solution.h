@@ -26,14 +26,42 @@ class Solution {
     vector<int> preorderTraversal(TreeNode *root) {
         stack<TreeNode *> stack;
         vector<int> list;
-        TreeNode *curr = root;
-        while (!stack.empty() || curr != NULL) {
-            while (curr != NULL) {
-                stack.push(curr);
+        if (root== nullptr)
+            return list;
+        stack.push(root);
+        while (!stack.empty()) {
+            TreeNode* curr=stack.top();
+            stack.pop();
+            if  (curr != NULL) {
                 list.push_back(curr->val);
-                curr = curr->left;
             }
-            curr=stack.top();stack.pop();
+            if (curr->right!= nullptr)
+                stack.push(curr->right);
+            if (curr->left!= nullptr)
+                stack.push(curr->left);
+        }
+        return list;
+    }
+
+    vector<int> preorderTraversal2(TreeNode *root){
+        stack<TreeNode*> stack;
+        vector<int> list;
+        if (root== nullptr) {
+            return list;
+        }
+        TreeNode *curr = root;
+        while (!stack.empty()||curr!= nullptr){
+            //找到最左边的节点
+            while (curr!= nullptr){
+                list.push_back(curr->val);
+                stack.push(curr);
+                curr=curr->left;
+            }
+            if (!stack.empty()){
+                curr=stack.top();
+                stack.pop();
+                curr=curr->right;
+            }
         }
         return list;
     }
