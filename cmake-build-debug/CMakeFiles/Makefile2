@@ -68,6 +68,7 @@ all: CMakeFiles\_144_.dir\all
 all: CMakeFiles\_654_.dir\all
 all: CMakeFiles\_105_.dir\all
 all: CMakeFiles\_106_.dir\all
+all: CMakeFiles\daily.dir\all
 
 .PHONY : all
 
@@ -91,6 +92,7 @@ clean: CMakeFiles\_144_.dir\clean
 clean: CMakeFiles\_654_.dir\clean
 clean: CMakeFiles\_105_.dir\clean
 clean: CMakeFiles\_106_.dir\clean
+clean: CMakeFiles\daily.dir\clean
 
 .PHONY : clean
 
@@ -471,6 +473,33 @@ _106_: CMakeFiles\_106_.dir\rule
 CMakeFiles\_106_.dir\clean:
 	$(MAKE) -f CMakeFiles\_106_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_106_.dir\clean
 .PHONY : CMakeFiles\_106_.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/daily.dir
+
+# All Build rule for target.
+CMakeFiles\daily.dir\all:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\depend
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\code\C++\LetCodeC++\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target daily"
+.PHONY : CMakeFiles\daily.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\daily.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\C++\LetCodeC++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\C++\LetCodeC++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\daily.dir\rule
+
+# Convenience name for target.
+daily: CMakeFiles\daily.dir\rule
+
+.PHONY : daily
+
+# clean rule for target.
+CMakeFiles\daily.dir\clean:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\clean
+.PHONY : CMakeFiles\daily.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

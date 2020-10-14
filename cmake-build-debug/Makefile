@@ -293,6 +293,19 @@ _106_\fast:
 	$(MAKE) -f CMakeFiles\_106_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_106_.dir\build
 .PHONY : _106_\fast
 
+#=============================================================================
+# Target rules for targets named daily
+
+# Build rule for target.
+daily: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) daily
+.PHONY : daily
+
+# fast build rule for target.
+daily\fast:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\build
+.PHONY : daily\fast
+
 Array\_11_Container_With_Most_Water\Solution.obj: Array\_11_Container_With_Most_Water\Solution.cpp.obj
 
 .PHONY : Array\_11_Container_With_Most_Water\Solution.obj
@@ -644,6 +657,33 @@ Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.s:
 	$(MAKE) -f CMakeFiles\_94_.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\_94_.dir\Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.s
 .PHONY : Tree\_94_Binary_Tree_Inorder_Traversal\Solution.cpp.s
 
+daily_practice\_1002_Find_Common_Characters\Solution.obj: daily_practice\_1002_Find_Common_Characters\Solution.cpp.obj
+
+.PHONY : daily_practice\_1002_Find_Common_Characters\Solution.obj
+
+# target to build an object file
+daily_practice\_1002_Find_Common_Characters\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_1002_Find_Common_Characters\Solution.cpp.obj
+.PHONY : daily_practice\_1002_Find_Common_Characters\Solution.cpp.obj
+
+daily_practice\_1002_Find_Common_Characters\Solution.i: daily_practice\_1002_Find_Common_Characters\Solution.cpp.i
+
+.PHONY : daily_practice\_1002_Find_Common_Characters\Solution.i
+
+# target to preprocess a source file
+daily_practice\_1002_Find_Common_Characters\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_1002_Find_Common_Characters\Solution.cpp.i
+.PHONY : daily_practice\_1002_Find_Common_Characters\Solution.cpp.i
+
+daily_practice\_1002_Find_Common_Characters\Solution.s: daily_practice\_1002_Find_Common_Characters\Solution.cpp.s
+
+.PHONY : daily_practice\_1002_Find_Common_Characters\Solution.s
+
+# target to generate assembly for a file
+daily_practice\_1002_Find_Common_Characters\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_1002_Find_Common_Characters\Solution.cpp.s
+.PHONY : daily_practice\_1002_Find_Common_Characters\Solution.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -691,6 +731,7 @@ help:
 	@echo ... _654_
 	@echo ... _105_
 	@echo ... _106_
+	@echo ... daily
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Array/_11_Container_With_Most_Water/Solution.obj
@@ -732,6 +773,9 @@ help:
 	@echo ... Tree/_94_Binary_Tree_Inorder_Traversal/Solution.obj
 	@echo ... Tree/_94_Binary_Tree_Inorder_Traversal/Solution.i
 	@echo ... Tree/_94_Binary_Tree_Inorder_Traversal/Solution.s
+	@echo ... daily_practice/_1002_Find_Common_Characters/Solution.obj
+	@echo ... daily_practice/_1002_Find_Common_Characters/Solution.i
+	@echo ... daily_practice/_1002_Find_Common_Characters/Solution.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

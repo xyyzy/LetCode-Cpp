@@ -12,5 +12,6 @@ D:/code/C++/LetCodeC++/cmake-build-debug/CMakeFiles/_144_.dir
 D:/code/C++/LetCodeC++/cmake-build-debug/CMakeFiles/_654_.dir
 D:/code/C++/LetCodeC++/cmake-build-debug/CMakeFiles/_105_.dir
 D:/code/C++/LetCodeC++/cmake-build-debug/CMakeFiles/_106_.dir
+D:/code/C++/LetCodeC++/cmake-build-debug/CMakeFiles/daily.dir
 D:/code/C++/LetCodeC++/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/code/C++/LetCodeC++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
