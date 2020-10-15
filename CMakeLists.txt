@@ -17,5 +17,5 @@ add_executable(_144_ "Tree/_144_Binary Tree Preorder Traversal/Solution.cpp" "Tr
 add_executable(_654_ "Tree/_654_Maximum Binary Tree/Solution.cpp" "Tree/_654_Maximum Binary Tree/Solution.h")
 add_executable(_105_ "Tree/_105_ Construct Binary Tree from Preorder and Inorder Traversal/Solution.cpp" "Tree/_105_ Construct Binary Tree from Preorder and Inorder Traversal/Solution.h")
 add_executable(_106_ "Tree/_106_Construct Binary Tree from Inorder and Postorder Traversal/Solution.cpp" "Tree/_106_Construct Binary Tree from Inorder and Postorder Traversal/Solution.h")
-add_executable(daily "daily practice/_1002_Find Common Characters/Solution.cpp" "daily practice/_1002_Find Common Characters/Solution.h")
+add_executable(daily "daily practice/_1002_Find Common Characters/Solution.cpp" "daily practice/_1002_Find Common Characters/Solution.h" "daily practice/_116_Populating Next Right Pointers in Each Node/Solution.cpp" "daily practice/_116_Populating Next Right Pointers in Each Node/Solution.h")
 
