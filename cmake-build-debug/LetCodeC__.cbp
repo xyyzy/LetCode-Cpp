@@ -818,6 +818,12 @@
 		<Unit filename="D:/code/C++/LetCodeC++/daily practice/_116_Populating Next Right Pointers in Each Node/Solution.h">
 			<Option target="daily"/>
 		</Unit>
+		<Unit filename="D:/code/C++/LetCodeC++/daily practice/_977_ Squares of a Sorted Array/Solution.cpp">
+			<Option target="daily"/>
+		</Unit>
+		<Unit filename="D:/code/C++/LetCodeC++/daily practice/_977_ Squares of a Sorted Array/Solution.h">
+			<Option target="daily"/>
+		</Unit>
 		<Unit filename="D:/code/C++/LetCodeC++/main.cpp">
 			<Option target="LetCodeC__"/>
 		</Unit>

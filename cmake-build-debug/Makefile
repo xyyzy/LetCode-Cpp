@@ -711,6 +711,33 @@ daily_practice\_116_Populating_Next_Right_Pointers_in_Each_Node\Solution.cpp.s:
 	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_116_Populating_Next_Right_Pointers_in_Each_Node\Solution.cpp.s
 .PHONY : daily_practice\_116_Populating_Next_Right_Pointers_in_Each_Node\Solution.cpp.s
 
+daily_practice\_977__Squares_of_a_Sorted_Array\Solution.obj: daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.obj
+
+.PHONY : daily_practice\_977__Squares_of_a_Sorted_Array\Solution.obj
+
+# target to build an object file
+daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.obj
+.PHONY : daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.obj
+
+daily_practice\_977__Squares_of_a_Sorted_Array\Solution.i: daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.i
+
+.PHONY : daily_practice\_977__Squares_of_a_Sorted_Array\Solution.i
+
+# target to preprocess a source file
+daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.i
+.PHONY : daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.i
+
+daily_practice\_977__Squares_of_a_Sorted_Array\Solution.s: daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.s
+
+.PHONY : daily_practice\_977__Squares_of_a_Sorted_Array\Solution.s
+
+# target to generate assembly for a file
+daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.s
+.PHONY : daily_practice\_977__Squares_of_a_Sorted_Array\Solution.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -806,6 +833,9 @@ help:
 	@echo ... daily_practice/_116_Populating_Next_Right_Pointers_in_Each_Node/Solution.obj
 	@echo ... daily_practice/_116_Populating_Next_Right_Pointers_in_Each_Node/Solution.i
 	@echo ... daily_practice/_116_Populating_Next_Right_Pointers_in_Each_Node/Solution.s
+	@echo ... daily_practice/_977__Squares_of_a_Sorted_Array/Solution.obj
+	@echo ... daily_practice/_977__Squares_of_a_Sorted_Array/Solution.i
+	@echo ... daily_practice/_977__Squares_of_a_Sorted_Array/Solution.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
