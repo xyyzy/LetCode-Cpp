@@ -684,6 +684,33 @@ daily_practice\_1002_Find_Common_Characters\Solution.cpp.s:
 	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_1002_Find_Common_Characters\Solution.cpp.s
 .PHONY : daily_practice\_1002_Find_Common_Characters\Solution.cpp.s
 
+daily_practice\_1024_Video_Stitching\Solution.obj: daily_practice\_1024_Video_Stitching\Solution.cpp.obj
+
+.PHONY : daily_practice\_1024_Video_Stitching\Solution.obj
+
+# target to build an object file
+daily_practice\_1024_Video_Stitching\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_1024_Video_Stitching\Solution.cpp.obj
+.PHONY : daily_practice\_1024_Video_Stitching\Solution.cpp.obj
+
+daily_practice\_1024_Video_Stitching\Solution.i: daily_practice\_1024_Video_Stitching\Solution.cpp.i
+
+.PHONY : daily_practice\_1024_Video_Stitching\Solution.i
+
+# target to preprocess a source file
+daily_practice\_1024_Video_Stitching\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_1024_Video_Stitching\Solution.cpp.i
+.PHONY : daily_practice\_1024_Video_Stitching\Solution.cpp.i
+
+daily_practice\_1024_Video_Stitching\Solution.s: daily_practice\_1024_Video_Stitching\Solution.cpp.s
+
+.PHONY : daily_practice\_1024_Video_Stitching\Solution.s
+
+# target to generate assembly for a file
+daily_practice\_1024_Video_Stitching\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_1024_Video_Stitching\Solution.cpp.s
+.PHONY : daily_practice\_1024_Video_Stitching\Solution.cpp.s
+
 daily_practice\_116_Populating_Next_Right_Pointers_in_Each_Node\Solution.obj: daily_practice\_116_Populating_Next_Right_Pointers_in_Each_Node\Solution.cpp.obj
 
 .PHONY : daily_practice\_116_Populating_Next_Right_Pointers_in_Each_Node\Solution.obj
@@ -884,6 +911,9 @@ help:
 	@echo ... daily_practice/_1002_Find_Common_Characters/Solution.obj
 	@echo ... daily_practice/_1002_Find_Common_Characters/Solution.i
 	@echo ... daily_practice/_1002_Find_Common_Characters/Solution.s
+	@echo ... daily_practice/_1024_Video_Stitching/Solution.obj
+	@echo ... daily_practice/_1024_Video_Stitching/Solution.i
+	@echo ... daily_practice/_1024_Video_Stitching/Solution.s
 	@echo ... daily_practice/_116_Populating_Next_Right_Pointers_in_Each_Node/Solution.obj
 	@echo ... daily_practice/_116_Populating_Next_Right_Pointers_in_Each_Node/Solution.i
 	@echo ... daily_practice/_116_Populating_Next_Right_Pointers_in_Each_Node/Solution.s
