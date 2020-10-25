@@ -765,6 +765,33 @@ daily_practice\_19_Remove_Nth_Node_From_End_of_List\Solution.cpp.s:
 	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_19_Remove_Nth_Node_From_End_of_List\Solution.cpp.s
 .PHONY : daily_practice\_19_Remove_Nth_Node_From_End_of_List\Solution.cpp.s
 
+daily_practice\_845_Longest_Mountain_in_Array\Solution.obj: daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.obj
+
+.PHONY : daily_practice\_845_Longest_Mountain_in_Array\Solution.obj
+
+# target to build an object file
+daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.obj:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.obj
+.PHONY : daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.obj
+
+daily_practice\_845_Longest_Mountain_in_Array\Solution.i: daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.i
+
+.PHONY : daily_practice\_845_Longest_Mountain_in_Array\Solution.i
+
+# target to preprocess a source file
+daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.i:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.i
+.PHONY : daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.i
+
+daily_practice\_845_Longest_Mountain_in_Array\Solution.s: daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.s
+
+.PHONY : daily_practice\_845_Longest_Mountain_in_Array\Solution.s
+
+# target to generate assembly for a file
+daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.s:
+	$(MAKE) -f CMakeFiles\daily.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\daily.dir\daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.s
+.PHONY : daily_practice\_845_Longest_Mountain_in_Array\Solution.cpp.s
+
 daily_practice\_925_Long_Pressed_Name\Solution.obj: daily_practice\_925_Long_Pressed_Name\Solution.cpp.obj
 
 .PHONY : daily_practice\_925_Long_Pressed_Name\Solution.obj
@@ -920,6 +947,9 @@ help:
 	@echo ... daily_practice/_19_Remove_Nth_Node_From_End_of_List/Solution.obj
 	@echo ... daily_practice/_19_Remove_Nth_Node_From_End_of_List/Solution.i
 	@echo ... daily_practice/_19_Remove_Nth_Node_From_End_of_List/Solution.s
+	@echo ... daily_practice/_845_Longest_Mountain_in_Array/Solution.obj
+	@echo ... daily_practice/_845_Longest_Mountain_in_Array/Solution.i
+	@echo ... daily_practice/_845_Longest_Mountain_in_Array/Solution.s
 	@echo ... daily_practice/_925_Long_Pressed_Name/Solution.obj
 	@echo ... daily_practice/_925_Long_Pressed_Name/Solution.i
 	@echo ... daily_practice/_925_Long_Pressed_Name/Solution.s
