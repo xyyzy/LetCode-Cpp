@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/9/22.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <cstdio>
@@ -19,7 +19,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-class Solution {
+class RandomizedCollection {
     unordered_map<int, int> mp;
     int idx = 0, n;
 public:
@@ -56,4 +56,4 @@ public:
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

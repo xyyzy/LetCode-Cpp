@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/10/24.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <vector>
@@ -20,7 +20,7 @@ using namespace std;
 我们需要将这些片段进行再剪辑，并将剪辑后的内容拼接成覆盖整个运动过程的片段（[0, T]）。返回所需片段的最小数目，如果无法完成该任务，则返回 -1 。
 
  * */
-class Solution {
+class RandomizedCollection {
 public:
     //动态规划
     int videoStitching(vector<vector<int>> &clips, int T) {
@@ -62,4 +62,4 @@ public:
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

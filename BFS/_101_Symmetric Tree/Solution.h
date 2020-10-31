@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/6/15.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 /*
@@ -20,7 +20,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-class Solution {
+class RandomizedCollection {
 
     bool isSymmetric(TreeNode *root) {
         return ismirror(root, root);
@@ -61,4 +61,4 @@ class Solution {
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

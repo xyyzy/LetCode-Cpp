@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/10/25.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <vector>
@@ -10,7 +10,7 @@
 
 using namespace std;
 
-class Solution {
+class RandomizedCollection {
     int longestMountain(vector<int> &A) {
         int n = A.size();
         if (!n) {
@@ -62,4 +62,4 @@ class Solution {
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/10/15.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <cstddef>
@@ -25,7 +25,7 @@ public:
             : val(_val), left(_left), right(_right), next(_next) {}
 };
 
-class Solution {
+class RandomizedCollection {
     Node *connect1(Node *root) {
         if (root == nullptr)
             return nullptr;
@@ -75,4 +75,4 @@ class Solution {
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

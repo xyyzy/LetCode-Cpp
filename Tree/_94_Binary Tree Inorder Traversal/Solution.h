@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/8/12.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <stdio.h>
@@ -23,7 +23,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-class Solution {
+class RandomizedCollection {
 public:
     vector<int> inorderTraversal(TreeNode *root) {
         stack<TreeNode *> stack;
@@ -47,4 +47,4 @@ public:
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

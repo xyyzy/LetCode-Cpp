@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/10/16.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 #include <vector>
 #include <math.h>
@@ -10,7 +10,7 @@
 using namespace std;
 
 
-class Solution {
+class RandomizedCollection {
     vector<int> sortedSquares(vector<int>& A) {
         for (int i = 0; i < A.size(); ++i) {
             A[i]=pow(A[i],2);
@@ -21,4 +21,4 @@ class Solution {
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

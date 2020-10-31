@@ -21,7 +21,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-class Solution {
+class RandomizedCollection {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode *root) {
         vector<vector<int>> result;

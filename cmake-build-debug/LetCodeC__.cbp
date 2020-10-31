@@ -836,6 +836,12 @@
 		<Unit filename="D:/code/C++/LetCodeC++/daily practice/_19_Remove Nth Node From End of List/Solution.h">
 			<Option target="daily"/>
 		</Unit>
+		<Unit filename="D:/code/C++/LetCodeC++/daily practice/_381_ Insert Delete GetRandom O(1) - Duplicates allowed/Solution.cpp">
+			<Option target="daily"/>
+		</Unit>
+		<Unit filename="D:/code/C++/LetCodeC++/daily practice/_381_ Insert Delete GetRandom O(1) - Duplicates allowed/Solution.h">
+			<Option target="daily"/>
+		</Unit>
 		<Unit filename="D:/code/C++/LetCodeC++/daily practice/_845_Longest Mountain in Array/Solution.cpp">
 			<Option target="daily"/>
 		</Unit>

@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/8/4.
 //
 
-//#include "Solution.h"
+//#include "RandomizedCollection.h"
 #include <stdio.h>
 #include <iostream>
 #include <string>

@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/10/18.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 using namespace std;
 
@@ -19,7 +19,7 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-class Solution {
+class RandomizedCollection {
 public:
     /*
      * 两个结点保持n的距离 当前个结点到达边界的时候后一个结点就是要删除的结点。
@@ -69,4 +69,4 @@ public:
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/10/14.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 /*
@@ -16,7 +16,7 @@
 
 using namespace std;
 
-class Solution {
+class RandomizedCollection {
 public://计数法
     vector<string> commonChars(vector<string> &A) {
         vector<string> ans;
@@ -48,4 +48,4 @@ public://计数法
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

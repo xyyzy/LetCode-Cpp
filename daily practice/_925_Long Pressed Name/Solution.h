@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/10/21.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <string>
@@ -17,7 +17,7 @@ using namespace std;
  *
  *
  * */
-class Solution {
+class RandomizedCollection {
     bool isLongPressedName(string name, string typed) {
         int i, j = 0;
         while (j < typed.length()) {
@@ -35,4 +35,4 @@ class Solution {
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

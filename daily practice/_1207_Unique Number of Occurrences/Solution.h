@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/10/28.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <vector>
@@ -12,7 +12,7 @@
 
 using namespace std;
 
-class Solution {
+class RandomizedCollection {
 public:
     //哈希表
     bool uniqueOccurrences(vector<int> &arr) {
@@ -33,4 +33,4 @@ public:
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

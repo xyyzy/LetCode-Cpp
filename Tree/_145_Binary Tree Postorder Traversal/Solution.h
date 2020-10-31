@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/8/12.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <stdio.h>
@@ -28,7 +28,7 @@ struct TreeNode {
     先按前序遍历的规则 然后reverse
  *
  * */
-class Solution {
+class RandomizedCollection {
     vector<int> postorderTraversal(TreeNode *root) {
         stack<TreeNode *> stack;
         vector<int> list;
@@ -53,4 +53,4 @@ class Solution {
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H

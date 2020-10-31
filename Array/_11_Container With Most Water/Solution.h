@@ -2,7 +2,7 @@
 // Created by Xulin on 2020/6/9.
 //
 
-#ifndef LETCODEC___SOLUTION_H
+#ifndef LETCODEC___RANDOMIZEDCOLLECTION_H
 #define LETCODEC___SOLUTION_H
 
 #include <vector>
@@ -10,7 +10,7 @@
 
 using namespace std;
 
-class Solution {
+class RandomizedCollection {
 public:
     int maxArea(vector<int> &height) {
         int i = 0;
@@ -31,4 +31,4 @@ public:
 };
 
 
-#endif //LETCODEC___SOLUTION_H
+#endif //LETCODEC___RANDOMIZEDCOLLECTION_H
